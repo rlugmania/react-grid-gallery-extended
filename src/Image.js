@@ -168,7 +168,8 @@ class Image extends Component {
             alt: alt,
             title: typeof this.props.item.caption === 'string' ? this.props.item.caption : null,
             style: this.thumbnailStyle(),
-            'data-testid': "grid-gallery-item_thumbnail"
+            'data-testid': "grid-gallery-item_thumbnail",
+            tabindex: this.props.tabindex ?? '0'
         };
 
         var ThumbnailImageComponent = this.props.thumbnailImageComponent;

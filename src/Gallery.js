@@ -178,6 +178,7 @@ class Gallery extends Component {
             tileViewportStyle={this.props.tileViewportStyle}
             thumbnailStyle={this.props.thumbnailStyle}
             thumbnailImageComponent={this.props.thumbnailImageComponent}
+            tabindex={this.props.tabindex}
                 />;});
         var resizeIframeStyles = {
             height: 0,
