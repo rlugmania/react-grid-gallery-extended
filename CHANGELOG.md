@@ -1,5 +1,13 @@
 # react-grid-gallery
 
+### v0.6.1 / 2023-12-20
+
+* Enter key over Galerry images calls the onClick event
+
+### v0.6.0 / 2023-11-29
+
+* Added TabIndex attribute to the thumbnail images
+
 ### v0.5.5 / 2019-06-20
 
 * Added new lightBoxProps option to assign any prop directly to lightbox [PR #121](https://github.com/benhowell/react-grid-gallery/pull/121). Thanks [jimishf](https://github.com/JimishF).

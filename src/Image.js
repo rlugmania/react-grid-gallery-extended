@@ -234,6 +234,7 @@ class Image extends Component {
             data-testid="grid-gallery-item_viewport"
             style={this.tileViewportStyle()}
             key={"tile-viewport-"+this.props.index}
+            onKeyDown={ (e)=> { if (e.key === 'Enter') this.props.onClick.call(this, this.props.index, e); }}
             onClick={this.props.onClick ?
                      (e) => this.props.onClick.call(this, this.props.index, e) : null}>
                 {ThumbnailImageComponent ?
